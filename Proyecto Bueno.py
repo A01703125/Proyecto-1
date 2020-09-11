@@ -42,9 +42,7 @@ def metros_pies(metros):
 #Aqui convierte de pies a metros
 def pies_metros(pies):
     return(pies/3.2808)
-
-#Aqui se define la respuesta para ver si corre el programa otra vez o no
-    
+#Aqui empieza el loop
 while True:
 #Aqui el usuario pone los numeros y el programa los saca
 
@@ -93,7 +91,8 @@ while True:
         print("Pon una respuesta adecuada")
     if answer == 2:
        print("Gracias por usar el programa")
-    break 
+#aqui acaba el loop
+   break 
    
       
     
