@@ -81,18 +81,18 @@ while True:
 
     print("¿Quieres convertir más unidades?")
     print("1. para empezar otra vez y 2. para no empezar otra vez")
- 
+ #Si el usuario quiere empezar otra vez, este es el momento
     answer = int(input("answer= "))
     if answer== 1:
         print("¿Qué quieres convertir?")
         str(input())    
         continue
-    if answer <2:
+    if answer <2 :
         print("Pon una respuesta adecuada")
     if answer == 2:
        print("Gracias por usar el programa")
 #aqui acaba el loop
-   break 
+       break 
    
       
     
