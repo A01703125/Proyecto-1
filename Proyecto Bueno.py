@@ -85,7 +85,7 @@ while True:
     answer = int(input("answer= "))
     if answer== 1:
         print("¿Qué quieres convertir?")
-        str(input())    
+        str(input( ))    
         continue
     if answer <2 :
         print("Pon una respuesta adecuada")
